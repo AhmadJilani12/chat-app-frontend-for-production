@@ -5,7 +5,7 @@ import { data } from "react-router-dom";
 import { io } from "socket.io-client";
 
 
-const BASE_URL =  "https://chat-app-backend-production-023c.up.railway.app/api";
+const BASE_URL =  "https://chat-app-backend-production-f9fc.up.railway.app/api";
 
 export const useAuthStore = create((set , get) => ({
     authUser: null,
